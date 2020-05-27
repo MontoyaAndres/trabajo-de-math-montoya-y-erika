@@ -33,11 +33,27 @@ function App() {
 
   return (
     <>
-      <div className="text">
-        <Typography variant="h4" component="h4">
-          Trabajo de Montoya unicamente
-        </Typography>
-      </div>
+      <Typography
+        variant="h5"
+        component="h5"
+        style={{ paddingBottom: ".5rem" }}
+      >
+        Andrés Mauricio Montoya Sánchez
+      </Typography>
+      <Typography
+        variant="h5"
+        component="h5"
+        style={{ paddingBottom: ".5rem" }}
+      >
+        Erika Lorena Barrios Sierra
+      </Typography>
+      <Typography
+        variant="h5"
+        component="h5"
+        style={{ paddingBottom: ".5rem" }}
+      >
+        Brayan Mauricio Salamanca Sierra
+      </Typography>
 
       <TextField
         label="Coordenadas de x"
